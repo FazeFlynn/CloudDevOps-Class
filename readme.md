@@ -144,7 +144,6 @@ Without Kubernetes, managing containers manually across multiple servers can bec
 
 # 2nd Insem
 
-Here are structured and concise answers to the topics you requested:
 
 ### 1. **Introduction to DevOps**
 - **What is DevOps?**
@@ -247,7 +246,7 @@ Here are structured and concise answers to the topics you requested:
 
 ## Detailed Explanation
 
-Here's a **detailed explanation** of all the formatted topics with comprehensive information, examples, and how each fits into a real-world DevOps and cloud setup.
+A **detailed explanation** of all the formatted topics with comprehensive information, examples, and how each fits into a real-world DevOps and cloud setup.
 
 ---
 

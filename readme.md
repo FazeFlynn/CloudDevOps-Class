@@ -467,8 +467,160 @@ Your company, **ShopifyHub**, aims to launch a new e-commerce platform. You need
 This comprehensive scenario illustrates how each tool and technology plays a vital role in developing, deploying, and maintaining a large-scale, high-traffic application.
 
 
-$$
-\Large \text{2nd Insem Ends Here}
-$$
+`2nd Insem end here`
+
+---
+
+
+# End Sem
+
+## Unit 5
+
+### **Lecture 36: Testing in DevOps**
+
+#### **1. Introduction to Testing in DevOps**
+- Testing in DevOps ensures continuous and automated testing throughout the **Software Development Lifecycle (SDLC)** for faster and reliable delivery.
+- Transition from manual testing to automated testing minimizes human error and saves time.
+- **Key Role**: Testing integrates into DevOps pipelines using automation tools to achieve **Continuous Integration (CI)** and **Continuous Testing (CT)**.
+
+**Real-Life Scenario**:  
+A development team uses automated testing tools like Selenium and JUnit to test e-commerce functionality (e.g., adding items to the cart) across multiple environments without manual intervention. Failures trigger alerts for immediate fixes.
+
+
+#### **2. Who is Involved in Testing?**
+- In DevOps, testing is a **shared responsibility** among all team members (developers, testers, operations).
+- Testers:
+  - Develop test automation scripts.
+  - Integrate testing activities into CI/CD pipelines.
+- Skills for testers:
+  - Knowledge of **source control tools** (e.g., Git, Bitbucket).
+  - Expertise in **CI tools** (e.g., Jenkins, Bamboo).
+  - Familiarity with **cloud platforms** (e.g., AWS, Azure) and **container orchestration tools** (e.g., Kubernetes, Docker).
+
+
+#### **3. Types of Testing in DevOps**
+1. **Unit Testing**:
+   - Tests small, isolated pieces of code (methods or functions).
+   - Tools: **JUnit** (Java), **PyTest** (Python), **Jest** (JavaScript).
+   - Example:
+     ```java
+     @Test
+     public void testAddition() {
+         assertEquals(5, Calculator.add(2, 3));
+     }
+     ```
+
+2. **Component Testing**:
+   - Tests individual components/modules of the application.
+   - Focuses on functional correctness within a module.
+
+3. **Integration Testing**:
+   - Verifies interactions between integrated components or services.
+   - Includes database/API interactions.
+
+4. **API Testing**:
+   - Tests communication between microservices or external APIs.
+   - Tool: **Postman**.
+   - Example:
+     ```javascript
+     pm.test("Status code is 200", function () {
+         pm.response.to.have.status(200);
+     });
+     ```
+
+5. **Functional Testing**:
+   - End-to-end testing simulating user workflows.
+   - Tools: **Selenium**, **Testsigma**.
+   - Example (Selenium for login functionality):
+     ```python
+     from selenium import webdriver
+     driver = webdriver.Chrome()
+     driver.get("https://example.com/login")
+     driver.find_element_by_id("username").send_keys("user")
+     driver.find_element_by_id("password").send_keys("password")
+     driver.find_element_by_id("submit").click()
+     ```
+
+
+#### **4. DevOps Testing Strategy**
+1. **Test Case Selection**: Identify critical test cases for specific builds.
+2. **Focus on Unit Testing**: Unit tests are faster and stable.
+3. **End-to-End Tests**: Simulate real user workflows.
+4. **Environment Coverage**:
+   - Test across platforms (e.g., Mac, Windows) and browsers (Chrome, Firefox).
+5. **Parallel Testing**: Ensure automation supports parallel execution for speed.
+6. **Monitoring Tools**: Use **Splunk**, **Grafana** to monitor application health.
+
+
+#### **5. Popular Testing Frameworks and Tools**
+1. **JUnit** (Java):
+   - **What it does**: Unit testing for Java applications.
+   - **Features**:
+     - Annotations (`@Test`, `@Before`).
+     - Assertions (`assertEquals`, `assertTrue`).
+   - **Example**:
+     ```java
+     @Test
+     public void testStringLength() {
+         assertEquals(4, "Test".length());
+     }
+     ```
+
+2. **Selenium** (UI Testing):
+   - **What it does**: Automates browser actions for web testing.
+   - **Features**:
+     - Multi-browser, multi-language support.
+     - Integration with CI/CD pipelines.
+   - **Example**:
+     ```python
+     driver.get("https://example.com")
+     driver.find_element_by_id("login").click()
+     ```
+
+3. **Postman** (API Testing):
+   - **What it does**: Tests RESTful APIs for status codes, data validation.
+   - **Features**:
+     - Automates API requests and assertions.
+     - CI/CD pipeline integration.
+
+4. **PyTest** (Python):
+   - **What it does**: Unit and functional testing for Python.
+   - **Features**:
+     - Simple syntax for tests.
+     - Supports fixtures and plugins.
+
+5. **Jest** (JavaScript):
+   - **What it does**: JavaScript and React testing.
+   - **Features**:
+     - Snapshot testing for UI.
+     - Parallel test execution.
+   - **Example**:
+     ```javascript
+     test('adds 1 + 2 to equal 3', () => {
+         expect(1 + 2).toBe(3);
+     });
+     ```
+
+6. **Cypress** (Frontend Testing):
+   - **What it does**: UI testing for JavaScript-based applications.
+   - **Features**:
+     - Time travel debugging.
+     - Real-time reloading.
+
+
+#### **6. Best Practices for Testing in DevOps**
+- Focus on smaller, isolated units of code.
+- Use **mocking** to simulate external systems.
+- Make tests **independent** and fast.
+- Incorporate **quality gates** and **code coverage** tools.
+- Ensure **cross-platform testing**.
+- **Primary Responsibility**: Developers address test failures immediately.
+
+
+### **Real-Life Example: E-Commerce Application**
+1. **Unit Testing**: Test the "add to cart" function with JUnit.
+2. **Integration Testing**: Validate payment gateway integration with API calls.
+3. **Functional Testing**: Automate the end-to-end workflow using Selenium.
+4. **Monitoring**: Use Grafana to track cart performance during high traffic.
 
 ---

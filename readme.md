@@ -499,6 +499,7 @@ A development team uses automated testing tools like Selenium and JUnit to test 
 
 
 #### **3. Types of Testing in DevOps**
+`UFC AI`
 1. **Unit Testing**:
    - Tests small, isolated pieces of code (methods or functions).
    - Tools: **JUnit** (Java), **PyTest** (Python), **Jest** (JavaScript).
@@ -553,6 +554,7 @@ A development team uses automated testing tools like Selenium and JUnit to test 
 
 
 #### **5. Popular Testing Frameworks and Tools**
+`J2S P2C`
 1. **JUnit** (Java):
    - **What it does**: Unit testing for Java applications.
    - **Features**:
@@ -709,6 +711,7 @@ A company developing a fitness app automates testing and deployment using **Fast
 ---
 
 #### **4. Mobile App Development Lifecycle**
+`PRD2 TDM`
 1. **Planning & Research**:
    - Define objectives, target audience, and features.
    - Select a tech stack: **Native (Kotlin, Swift)** or **Cross-Platform (Flutter, React Native)**.
@@ -745,6 +748,7 @@ A company developing a fitness app automates testing and deployment using **Fast
 ---
 
 #### **5. Types of Mobile App Testing**
+`UFC PS`
 1. **Functional Testing**:
    - Ensures core features (e.g., login, checkout) work as expected.
    - Tools: **Selenium**, **Appium**.
@@ -765,6 +769,7 @@ A company developing a fitness app automates testing and deployment using **Fast
 ---
 
 #### **6. Tools in Mobile DevOps**
+`AF BF`
 1. **Firebase Crashlytics**:
    - **What it does**: Tracks crashes and performance issues in real time.
    - **Example**:
@@ -823,6 +828,7 @@ A financial institution automates its fraud detection pipeline using Apache Kafk
 ---
 
 #### **2. Key Principles of DevOps Applied to Big Data**
+`CIM`
 1. **Continuous Integration/Continuous Deployment (CI/CD)**:
    - Automates the integration and deployment of data processing pipelines.
    - Tools: **Jenkins**, **GitLab CI/CD**.
@@ -879,6 +885,7 @@ spark-submit --master yarn --deploy-mode cluster process_data.py
 ---
 
 #### **6. Big Data Architectural Patterns**
+`MLK`
 1. **Lambda Architecture**:
    - Combines batch processing (historical data) and stream processing (real-time data).
 2. **Kappa Architecture**:
@@ -1003,6 +1010,7 @@ A streaming service like Netflix deploys its features using microservices, manag
 ---
 
 #### **3. Cloud-Native Design Patterns**
+`M.Sc`
 1. **Microservices**:
    - Independent, deployable services communicating via APIs.
    - Tool: **Spring Boot** (Java).

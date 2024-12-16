@@ -479,11 +479,11 @@ This comprehensive scenario illustrates how each tool and technology plays a vit
 ## Imp Topics
 
 ## **Tools and Frameworks Hierarchy**
-a structured hierarchy of **tools and frameworks** commonly used in various domains like **configuration management**, **DevOps**, **CI/CD**, **cloud infrastructure**, and **containerization** for better understanding.
-
----
 
 ### **1. Configuration Management Tools**
+
+`Chef, Puppet, Ansible`
+
 These tools automate the management and configuration of systems and applications.
 
 - **Super Type**: **Configuration Management Tools**
@@ -508,6 +508,9 @@ These tools automate the management and configuration of systems and application
 ---
 
 ### **2. CI/CD Tools**
+
+`Jenkins, GitLab CI`
+
 These tools automate the building, testing, and deployment of software through continuous integration and continuous delivery.
 
 - **Super Type**: **CI/CD Tools**
@@ -525,6 +528,7 @@ These tools automate the building, testing, and deployment of software through c
 ---
 
 ### **3. Containerization and Orchestration Tools**
+`Docker, Kubernetes`
 These tools manage containerized applications and automate their deployment, scaling, and management.
 
 - **Super Type**: **Containerization and Orchestration Tools**
@@ -542,6 +546,7 @@ These tools manage containerized applications and automate their deployment, sca
 ---
 
 ### **4. Infrastructure as Code (IaC) Tools**
+`Terraform`
 These tools automate the provisioning and management of infrastructure.
 
 - **Super Type**: **Infrastructure as Code Tools**

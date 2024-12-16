@@ -944,6 +944,14 @@ The CI process involves several structured phases that automate the building, te
 
 `CAB SAND`
 
+1. **Source Code Management**
+2. **Build Automation**
+3. **Automated Testing**
+4. **Code Quality and Security Analysis**
+5. **Artifact Management**
+6. **Notification and Reporting**
+7. **Deployment Preparation**
+
 ### **Phase 1: Source Code Management**
 The process of managing code versions and ensuring team collaboration.
 - **Key Activities**:
@@ -1170,6 +1178,35 @@ kubectl apply -f deployment.yaml
   - Deployment
   - Maintenance
 
+### **Phases of SDLC with Example: To-Do List Application**
+
+1. **Planning**:
+   - **Goal**: Define project scope, features, and timeline (e.g., a To-Do app with tasks, due dates, and completion options).
+
+2. **Requirements Analysis**:
+   - **Goal**: Gather functional and non-functional requirements.
+   - **Example**: Users can add/edit/delete tasks; app should be responsive and fast.
+
+3. **Design**:
+   - **Goal**: Plan the architecture and UI.
+   - **Example**: Design a client-server architecture and create wireframes for task management screens.
+
+4. **Development**:
+   - **Goal**: Write code to implement features.
+   - **Example**: Code the front-end (React Native) and back-end (Node.js) for task functionality.
+
+5. **Testing**:
+   - **Goal**: Test the app for bugs and ensure all features work.
+   - **Example**: Test adding/editing tasks, performance, and app responsiveness.
+
+6. **Deployment**:
+   - **Goal**: Make the app available to users.
+   - **Example**: Deploy the app on Google Play Store, Apple App Store, and a web platform (Heroku).
+
+7. **Maintenance**:
+   - **Goal**: Update the app and fix bugs.
+   - **Example**: Fix reported crashes, add new features like task prioritization.
+
 ---
 
 ### **SDLC Models**
@@ -1181,6 +1218,7 @@ The Waterfall model is a linear and sequential approach to software development.
 
 
 #### **Phases of the Waterfall Model**
+`RSI TDM`
 1. **Requirement Analysis**:
    - Collect and document all software requirements.
    - Outputs: Requirement Specification Document.

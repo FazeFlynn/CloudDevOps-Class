@@ -476,7 +476,7 @@ This comprehensive scenario illustrates how each tool and technology plays a vit
 
 ## Imp Topics
 
-### **1. Docker**
+## **1. Docker**
 
 Docker is an open-source platform designed to build, deploy, and run applications using containers. Containers are lightweight, portable, and isolated environments that include everything an application needs to run.
 
@@ -489,7 +489,7 @@ Docker is an open-source platform designed to build, deploy, and run application
 - **Industry Standard**: By 2017, Docker had become the de facto standard for containerization, with widespread adoption across cloud providers and development teams.
 
 
-#### ** Advantages of Docker**
+#### **Advantages of Docker**
 `Peris df`
 1. **Portability**:
    - Docker containers can run on any platform that supports Docker, ensuring consistent performance across environments (development, testing, and production).
@@ -698,7 +698,7 @@ Containers are lightweight, standalone, and executable software packages that in
 
 ---
 
-### **2. Configuration Management**
+## **2. Configuration Management**
 
 Configuration management refers to the process of systematically handling changes in infrastructure and software to ensure consistency, stability, and reliability across an IT environment. It ensures that all systems remain in their desired state, even as changes occur over time.
 
@@ -913,7 +913,7 @@ puppet agent --test
 
 ---
 
-### **3. Continuous Integration (CI) and Its Phases**
+## **3. Continuous Integration (CI) and Its Phases**
 Continuous Integration (CI) is a DevOps practice where developers frequently merge their code changes into a shared repository, followed by automated builds and testing. This ensures that integration issues are identified and resolved early in the development process.
 - **Purpose**:
   - Streamline the software development lifecycle (SDLC).
@@ -942,6 +942,7 @@ A team developing an e-commerce platform uses CI to automatically build and test
 #### **Phases of Continuous Integration**
 The CI process involves several structured phases that automate the building, testing, and verification of code.
 
+`CAB SAND`
 
 ### **Phase 1: Source Code Management**
 The process of managing code versions and ensuring team collaboration.
@@ -1155,7 +1156,7 @@ kubectl apply -f deployment.yaml
 
 ---
 
-### **5. Software Development and SDLC Types**
+## **5. Software Development and SDLC Types**
 
 **SDLC**: SDLC is a structured process that defines the stages involved in software development, from initial planning to deployment and maintenance.
 - **Purpose**: To ensure software is delivered efficiently, meets business requirements, and adheres to quality standards.
@@ -1317,7 +1318,7 @@ The Agile model emphasizes iterative and incremental development. Teams deliver 
 ---
 
 
-### **6. Jenkins**
+## **6. Jenkins**
 
 Jenkins is an open-source automation server used to build, test, and deploy software through continuous integration (CI) and continuous delivery (CD) pipelines.
 - **Purpose**:
@@ -1567,7 +1568,7 @@ Automate the build, test, and deployment of a Java application using Jenkins.
 
 ---
 
-### **7. Kubernetes: Comprehensive Overview**
+## **7. Kubernetes**
 
 Kubernetes, often abbreviated as K8s, is an open-source platform for automating the deployment, scaling, and management of containerized applications.
 - **Purpose**:
@@ -1861,7 +1862,7 @@ Deploy an Nginx web server with 3 replicas in Kubernetes.
 
 ---
 
-### **8. Chef**
+## **8. Chef**
 
 Chef is an open-source configuration management tool that automates the deployment, configuration, and management of IT infrastructure. It enables you to define your infrastructure as code (IaC) using a declarative approach, ensuring consistent configurations across environments.
 
@@ -2145,7 +2146,7 @@ A **cookbook** is a collection of recipes and other configuration files.
 
 ---
 
-### **9. Ansible**
+## **9. Ansible**
 
 Ansible is an open-source, agentless automation tool used for configuration management, application deployment, and IT orchestration. It simplifies infrastructure as code (IaC) by using **YAML** for defining configurations and tasks.
 
@@ -2430,7 +2431,7 @@ ansible-playbook -i hosts.ini setup_nginx.yml
 
 ---
 
-### **10. Puppet**
+## **10. Puppet**
 
 Puppet is an open-source configuration management and automation tool used to automate the deployment, configuration, and management of IT infrastructure. It uses a declarative language to define system configurations and ensures that systems maintain a desired state.
 
@@ -2673,7 +2674,7 @@ Puppet consists of several components that work together to automate system conf
 
 ## More Imp Topics
 
-### **11. Terraform**
+## **11. Terraform**
 
 Terraform is an open-source Infrastructure as Code (IaC) tool developed by HashiCorp. It allows you to define, provision, and manage infrastructure resources across multiple cloud platforms (AWS, Azure, GCP) and on-premises environments using a declarative configuration language called HashiCorp Configuration Language (**HCL**).
 

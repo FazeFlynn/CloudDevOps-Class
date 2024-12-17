@@ -684,6 +684,9 @@ Docker is an open-source platform designed to build, deploy, and run application
 - **Industry Standard**: By 2017, Docker had become the de facto standard for containerization, with widespread adoption across cloud providers and development teams.
 
 
+<img src="./images/docker-architecture.png" width="50%"></img>
+
+
 #### **Advantages of Docker**
 `Peris df`
 1. **Portability**:
@@ -1570,6 +1573,9 @@ Jenkins is an open-source automation server used to build, test, and deploy soft
 - **Jenkins Fork**: Renamed to Jenkins in 2011 after a community split.
 - **Widespread Adoption**: Became the most popular CI/CD tool due to its flexibility and open-source nature.
 
+<img src="./images/jenkins-architecture.png" width="95%"></img>
+
+
 
 ### **Advantages of Jenkins**
 `SCOPE`
@@ -1828,6 +1834,8 @@ Kubernetes, often abbreviated as K8s, is an open-source platform for automating 
    - Updates applications without downtime and rolls back in case of failures.
 
 ---
+
+<img src="./images/kubernetes-architecture.png" width="95%"></img>
 
 ### **Types of Kubernetes Components**
 
@@ -2100,7 +2108,9 @@ Deploy an Nginx web server with 3 replicas in Kubernetes.
 
 Chef is an open-source configuration management tool that automates the deployment, configuration, and management of IT infrastructure. It enables you to define your infrastructure as code (IaC) using a declarative approach, ensuring consistent configurations across environments.
 
+
 **Key Features**:
+`Cies`
 - Infrastructure as Code: Configurations are defined as code.
 - Cross-Platform Support: Works with Linux, Windows, and cloud environments.
 - Extensible: Highly customizable with support for custom resources and plugins.
@@ -2111,6 +2121,8 @@ Chef is an open-source configuration management tool that automates the deployme
 ### **Chef Architecture**
 
 Chef follows a **client-server architecture**, which consists of the following components:
+
+`NCCC or NCSW`
 
 #### **1. Chef Workstation**
 - **Role**: The workstation is where you develop, test, and manage configurations (cookbooks and recipes).
@@ -2139,6 +2151,9 @@ Chef follows a **client-server architecture**, which consists of the following c
 - **Types**:
   - Physical or virtual machines.
   - On-premises or cloud-hosted.
+
+
+<img src="./images/chef-architecture.png" width="50%"></img>
 
 
 ### **Workflow in Chef**
@@ -2390,6 +2405,8 @@ Ansible is an open-source, agentless automation tool used for configuration mana
   - **Declarative**: Focuses on the desired state of the system.
   - **Extensible**: Supports custom modules and plugins.
 
+
+<img src="./images/ansible-architecture.png" width="50%"></img>
 
 ### **Advantages of Ansible**
 `CISE`
@@ -2713,6 +2730,9 @@ Puppet follows a **client-server** architecture with the following main componen
 - **Pull-based**: Puppet is a pull-based system, meaning the agent checks in with the master at regular intervals (usually every 30 minutes).
 
 
+<img src="./images/puppet-architecture.png" width="50%"></img>
+
+
 ### **Types of Puppet**
 Puppet can be categorized in the following ways:
 
@@ -2727,6 +2747,8 @@ Puppet can be categorized in the following ways:
 #### **3. Puppet Bolt**
 - **Definition**: An open-source orchestration tool by Puppet that allows running tasks across a set of systems without the need for an agent or master.
 - **Best for**: Ad-hoc automation tasks across multiple nodes.
+
+
 
 
 ### **Puppet Components**

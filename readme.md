@@ -684,7 +684,7 @@ Docker is an open-source platform designed to build, deploy, and run application
 - **Industry Standard**: By 2017, Docker had become the de facto standard for containerization, with widespread adoption across cloud providers and development teams.
 
 
-<img src="./images/docker-architecture.png" width="50%"></img>
+<img src="./images/docker-architecture.png" width="90%"></img>
 
 
 #### **Advantages of Docker**
@@ -2280,7 +2280,7 @@ Chef follows a **client-server architecture**, which consists of the following c
   - On-premises or cloud-hosted.
 
 
-<img src="./images/chef-architecture.png" width="50%"></img>
+<img src="./images/chef-architecture.png" width="85%"></img>
 
 
 ### **Workflow in Chef**
@@ -2857,7 +2857,7 @@ Puppet follows a **client-server** architecture with the following main componen
 - **Pull-based**: Puppet is a pull-based system, meaning the agent checks in with the master at regular intervals (usually every 30 minutes).
 
 
-<img src="./images/puppet-architecture.png" width="50%"></img>
+<img src="./images/puppet-architecture.png" width="90%"></img>
 
 
 ### **Types of Puppet**

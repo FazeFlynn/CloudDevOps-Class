@@ -577,6 +577,40 @@ Docker is an open-source platform designed to build, deploy, and run application
 
 ---
 
+#### Architecture
+
+`ICC DEH`
+
+- **Docker Architecture:**
+
+  - **Docker Client:** Interface that sends commands to the Docker Engine.
+  - **Docker Engine:** The core part of Docker that builds, runs, and manages containers.
+  - **Docker Daemon:** Runs on the host machine and listens for Docker API requests.
+  - **Docker Images:** Read-only templates used to create containers.
+  - **Docker Containers:** Instances of Docker images running as isolated processes.
+  - **Docker Hub:** A cloud-based repository for storing and sharing Docker images.
+  
+- **Benefits:**
+  - Portability, environment consistency, and resource efficiency.
+- **Real-life Example:**
+  - PayPal uses Docker to run thousands of microservices, ensuring consistent deployments across environments.
+
+### 4. **Docker Desktop and Docker Hub**
+- **Docker Desktop:**
+  - A local application that provides an easy-to-use interface for managing Docker containers on a developer’s workstation. It includes Docker Engine, Docker CLI, and Docker Compose.
+- **Docker Hub:**
+  - A cloud-based registry where Docker images are stored and shared.
+- **Key Commands:**
+  ```bash
+  docker pull nginx           # Download an image
+  docker run -d nginx         # Run a container
+  docker push myimage:tag     # Push an image to Docker Hub
+  ```
+- **Real-life Example:**
+  - The development team at Airbnb uses Docker Desktop for local development and testing before pushing images to Docker Hub for deployment.
+
+---
+
 #### **Containers in Docker**
 Containers are lightweight, standalone, and executable software packages that include everything needed to run an application (code, runtime, libraries, and dependencies).
 
@@ -2139,6 +2173,7 @@ Chef follows a **client-server architecture**, which consists of the following c
 
 
 ### **Workflow in Chef**
+`C CRC`
 
 1. **Write Cookbooks and Recipes**:
    - Create a cookbook with one or more recipes that define the desired state of the node.
@@ -2152,6 +2187,7 @@ Chef follows a **client-server architecture**, which consists of the following c
 
 ### **Recipe in Chef**
 A recipe is a file written in Ruby that contains the configuration instructions for a node.
+`ICMD`
 - **Purpose**:
   - Install software.
   - Configure services.
@@ -2181,6 +2217,7 @@ end
 ---
 
 ### **How to Create a Chef Setup**
+`DSB`
 
 #### **Step 1: Install Chef Workstation**
 1. Download Chef Workstation:
@@ -2214,6 +2251,8 @@ Bootstrap installs the Chef Client on a node and configures it to communicate wi
 ```bash
 knife bootstrap <NODE_IP> --ssh-user <USER> --sudo --identity-file <PRIVATE_KEY> --node-name <NODE_NAME>
 ```
+`kb nsu sipnn`
+
 Example:
 ```bash
 knife bootstrap 192.168.1.100 --ssh-user ubuntu --sudo --identity-file ~/.ssh/id_rsa --node-name webserver
@@ -2300,6 +2339,8 @@ A **cookbook** is a collection of recipes and other configuration files.
    knife bootstrap <NODE_IP> --ssh-user <USER> --sudo --identity-file <KEY> --node-name <NODE_NAME>
    ```
 
+   `kb nsu siknn`
+
 4. **Run Chef Client**:
    ```bash
    sudo chef-client
@@ -2379,7 +2420,7 @@ A **cookbook** is a collection of recipes and other configuration files.
 
 ## **9. Ansible**
 
-Ansible is an open-source, agentless automation tool used for configuration management, application deployment, and IT orchestration. It simplifies infrastructure as code (IaC) by using **YAML** for defining configurations and tasks.
+Ansible is an open-source, agentless automation tool used for (`CAIO`) configuration management, application deployment, and IT orchestration. It simplifies infrastructure as code (IaC) by using **YAML** for defining configurations and tasks.
 
 `EDA`
 - **Key Features**:
@@ -2391,7 +2432,7 @@ Ansible is an open-source, agentless automation tool used for configuration mana
 <img src="./images/ansible-architecture.png" width="95%"></img>
 
 ### **Advantages of Ansible**
-`CISE`
+`CIES`
 1. **Ease of Use**:
    - Simple YAML syntax and no need for agents.
 2. **Cross-Platform**:
@@ -2416,6 +2457,8 @@ Ansible is an open-source, agentless automation tool used for configuration mana
 
 ### **Ansible Components**
 Ansible operates using several key components:
+
+`IMP RAP`
 
 #### **1. Inventory**
 - **Definition**: A file that defines the list of target nodes (managed systems).
@@ -2666,7 +2709,7 @@ ansible-playbook -i hosts.ini setup_nginx.yml
 
 ## **10. Puppet**
 
-Puppet is an open-source configuration management and automation tool used to automate the deployment, configuration, and management of IT infrastructure. It uses a declarative language to define system configurations and ensures that systems maintain a desired state.
+Puppet is an open-source configuration management and automation tool used to automate the (`CDM`) deployment, configuration, and management of IT infrastructure. It uses a declarative language to define system configurations and ensures that systems maintain a desired state.
 
 - **Purpose**:
   - Automates system configuration.
@@ -2681,6 +2724,8 @@ Puppet is an open-source configuration management and automation tool used to au
 ### **Puppet Architecture**
 
 Puppet follows a **client-server** architecture with the following main components:
+
+`MAD MAC DB`
 
 #### **1. Puppet Master (Server)**
 - **Role**: The Puppet Master is the central server that stores and manages configurations (manifests) and controls the configuration of all nodes (agents). It serves the configuration information to the nodes.
@@ -2736,6 +2781,8 @@ Puppet can be categorized in the following ways:
 ### **Puppet Components**
 
 Puppet consists of several components that work together to automate system configuration.
+
+`MCMR`
 
 1. **Manifests**:
    - **Definition**: Files written in Puppet’s domain-specific language (DSL) that define the desired state of systems.

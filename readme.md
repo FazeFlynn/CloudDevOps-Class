@@ -2079,7 +2079,7 @@ Deploy an Nginx web server with 3 replicas in Kubernetes.
 
 ## **8. Chef**
 
-Chef is an open-source configuration management tool that automates the deployment, configuration, and management of IT infrastructure. It enables you to define your infrastructure as code (IaC) using a declarative approach, ensuring consistent configurations across environments.
+Chef is an open-source configuration management tool that automates the deployment, configuration, and management (CDM) of IT infrastructure. It enables you to define your infrastructure as code (IaC) using a declarative approach, ensuring consistent configurations across environments.
 
 
 **Key Features**:
@@ -2089,7 +2089,16 @@ Chef is an open-source configuration management tool that automates the deployme
 - Extensible: Highly customizable with support for custom resources and plugins.
 - Scalability: Manages thousands of servers seamlessly.
 
+### About
+
+- Written in Ruby and Erlang
+- Founded by Adam Jacob in 2009 (Paid)
+- Announced Open Source on Apr 2, 2019
+- Used by Facebook, AWS, HP Cloud
+
 ---
+
+
 
 ### **Chef Architecture**
 
@@ -2900,6 +2909,63 @@ Puppet consists of several components that work together to automate system conf
    - Use Puppet to install and configure Nginx web servers automatically.
 
 <!-- ========================================================================================= -->
+
+---
+
+## **1. Docker**
+
+Docker is an open-source platform designed to build, deploy, and run applications using containers. Containers are lightweight, portable, and isolated environments that include everything an application needs to run.
+
+## **2. Configuration Management**
+
+Configuration management refers to the process of systematically handling changes in infrastructure and software to ensure consistency, stability, and reliability across an IT environment. It ensures that all systems remain in their desired state, even as changes occur over time.
+
+
+
+## **3. Continuous Integration (CI) and Its Phases**
+Continuous Integration (CI) is a DevOps practice where developers frequently merge their code changes into a shared repository, followed by automated builds and testing. This ensures that integration issues are identified and resolved early in the development process.
+
+## **4. Cloud Computing**
+Cloud computing refers to the delivery of computing services (like servers, storage, databases, networking, software, and more) over the internet ("the cloud") to offer faster innovation, flexible resources, and economies of scale.
+
+
+## **5. Software Development and SDLC Types**
+
+**SDLC**: SDLC is a structured process that defines the stages involved in software development, from initial planning to deployment and maintenance.
+
+## **6. Jenkins**
+
+Jenkins is an open-source automation server used to build, test, and deploy software through continuous integration (CI) and continuous delivery (CD) pipelines.
+
+## **7. Kubernetes**
+
+Kubernetes, often abbreviated as K8s, is an open-source platform for automating the deployment, scaling, and management of containerized applications.
+
+## **8. Chef**
+
+Chef is an open-source configuration management tool that automates the deployment, configuration, and management (CDM) of IT infrastructure. It enables you to define your infrastructure as code (IaC) using a declarative approach, ensuring consistent configurations across environments.
+
+
+## **9. Ansible**
+
+Ansible is an open-source, agentless automation tool used for configuration management, application deployment, and IT orchestration. It simplifies infrastructure as code (IaC) by using **YAML** for defining configurations and tasks.
+
+
+
+## **10. Puppet**
+
+Puppet is an open-source configuration management and automation tool used to automate the deployment, configuration, and management of IT infrastructure. It uses a declarative language to define system configurations and ensures that systems maintain a desired state.
+
+
+
+
+
+
+
+---
+
+
+
 
 ## More Imp Topics
 
